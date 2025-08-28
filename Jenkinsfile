@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/tconuorah/Hello_friend_Flask_app'
+                git branch: 'main', url: 'https://github.com/tconuorah/hello_friend_flask_app'
             }
         }
 
