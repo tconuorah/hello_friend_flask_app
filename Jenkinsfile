@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'tconuorah/Hello_friend_Flask_app-test'
+        IMAGE_NAME = 'tconuorah/hello_friend_flask_app-test'
     }
 
     stages {
